@@ -53,10 +53,7 @@ day2part2total = 0
 # Day 2 - Part 2
 
 for cube_data in games_list:
-    cube_data["red"].sort(reverse=True)
-    cube_data["green"].sort(reverse=True)
-    cube_data["blue"].sort(reverse=True)
     day2part2total = day2part2total + \
-        (cube_data["red"][0]*cube_data["green"][0]*cube_data["blue"][0])
+        (max(cube_data["red"])*max(cube_data["green"])*max(cube_data["blue"]))
 
 print(f"Day2 Part2 Total: {day2part2total}")
