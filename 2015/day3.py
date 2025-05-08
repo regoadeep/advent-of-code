@@ -72,3 +72,5 @@ for row in range(row_width):
             day3part2total += 1
 
 print(f"2015 - Day 3 Part 2 Total: {day3part2total}")
+
+fp.close()

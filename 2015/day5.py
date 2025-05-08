@@ -49,3 +49,5 @@ for line in fp.readlines():
         day5part2total += 1
 
 print(f"2015 - Day 5 Part 2 Total: {day5part2total}")
+
+fp.close()

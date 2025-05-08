@@ -27,3 +27,5 @@ for char in instructions:
     day1part2total += 1
 
 print(f"2015 - Day 1 Part 2 Total: {day1part2total}")
+
+fp.close()

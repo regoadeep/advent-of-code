@@ -23,3 +23,5 @@ for line in fp.readlines():
     day1part2total += area + (2*dimensions[0]) + (2*dimensions[1])
 
 print(f"2015 - Day 2 Part 2 Total: {day1part2total}")
+
+fp.close()

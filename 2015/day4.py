@@ -31,3 +31,5 @@ while True:
     day4part2total += 1
 
 print(f"2015 - Day 4 Part 2 Total: {day4part2total}")
+
+fp.close()
